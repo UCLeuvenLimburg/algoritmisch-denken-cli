@@ -1,0 +1,36 @@
+{
+  "name": "algoritmisch-denken",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "bin": {
+    "algo": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "clean": "rm -rf dist",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCLeuvenLimburg/algoritmisch-denken.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCLeuvenLimburg/algoritmisch-denken/issues"
+  },
+  "homepage": "https://github.com/UCLeuvenLimburg/algoritmisch-denken#readme",
+  "devDependencies": {
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "commander": "^2.17.1",
+    "puppeteer": "^1.7.0",
+    "simple-git": "^1.96.0"
+  }
+}
