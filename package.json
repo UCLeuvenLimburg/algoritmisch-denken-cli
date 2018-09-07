@@ -7,9 +7,6 @@
     "algo": "./bin/algo"
   },
   "scripts": {
-    "start": "npm run build",
-    "clean": "rm -rf dist",
-    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
