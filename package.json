@@ -9,15 +9,15 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UCLeuvenLimburg/algoritmisch-denken.git"
+    "url": "git+https://github.com/UCLeuvenLimburg/algoritmisch-denken-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UCLeuvenLimburg/algoritmisch-denken/issues"
+    "url": "https://github.com/UCLeuvenLimburg/algoritmisch-denken-cli/issues"
   },
-  "homepage": "https://github.com/UCLeuvenLimburg/algoritmisch-denken#readme",
+  "homepage": "https://github.com/UCLeuvenLimburg/algoritmisch-denken-cli#readme",
   "devDependencies": {},
   "dependencies": {
     "commander": "^2.17.1",
